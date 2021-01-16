@@ -332,6 +332,15 @@ iframe {
 .footer-social-icons {
   text-align: center;
 }
+
+.footer-social-title {
+  text-align: center;
+  margin-top: 0;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
 .footer-social-icons a {
   color: #ffffff;
   display: inline-block;
@@ -376,7 +385,7 @@ iframe {
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 20px;
-  border-top: 6px solid #111;
+  /* border-top: 6px solid #111; */
   -webkit-transition: all 0.6s ease-in-out;
   -moz-transition: all 0.6s ease-in-out;
   transition: all 0.6s ease-in-out;
@@ -605,11 +614,11 @@ iframe {
   font-weight: bold;
   margin-bottom: 20px;
 }
-.vcard-profile-description-text {
+/* .vcard-profile-description-text {
   padding: 10px;
   padding-top: 10px;
   margin-bottom: 5px;
-}
+} */
 .vcard-profile-description-text p {
   font-size: 12px;
 }
