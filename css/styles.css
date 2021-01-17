@@ -1415,6 +1415,22 @@ span.see-more {
 .ads {
   width: 320px;
   height: 100px;
+  margin: 0 auto;
+  overflow-y: scroll;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  /* border-top: 6px solid #111; */
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -webkit-box-shadow: 0px 6px 18px 0px rgba(0, 0, 0, 0.46);
+  -moz-box-shadow: 0px 6px 18px 0px rgba(0, 0, 0, 0.46);
+  box-shadow: 0px 6px 18px 0px rgba(0, 0, 0, 0.46);
+  border-bottom: 15px solid #f4f4f4;
 }
 @media(min-width: 500px) {
   .ads {
