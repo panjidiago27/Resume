@@ -1408,3 +1408,23 @@ span.see-more {
 .safari .testimonial-picture img {
   border: 0px solid #ddd;
 }
+
+/* ==========================================================
+! 18. Ads
+========================================================== */
+.ads {
+  width: 320px;
+  height: 100px;
+}
+@media(min-width: 500px) {
+  .ads {
+    width: 468px;
+    height: 60px;
+  }
+}
+@media(min-width: 800px) {
+  .ads {
+    width: 728px;
+    height: 90px;
+  }
+}
